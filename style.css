@@ -1,0 +1,225 @@
+body {
+    background-color: #f7f2eb;
+    font-size: 14px;
+    margin: 0;
+    font-family: "Arial", serif;
+    }
+    
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #5e402f;
+}
+
+h2 {
+    font-size: 29px;
+    color: #54443b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #915e46;
+}
+
+h4 {
+    font-size: 18px;
+    color: #948079;
+}
+
+p {
+    color: #26190b;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.logo {
+    background-color: #fffdfa;
+    padding: 20px;
+    margin: 50px auto; /* Centrage horizontal */
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    display: block;
+    margin: auto; /* Centrage précis de l'image */
+    max-width: 100%; /* Ajustement pour le padding */
+    height: 100%;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex; /* Utilise Flexbox pour le layout */
+    flex-direction: column; /* Empile les éléments verticalement */
+    justify-content: center; /* Centre verticalement le contenu dans le footer */
+    align-items: center; /* Centre horizontalement le contenu dans le footer */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #ccc;
+    height: auto; /* Changez à auto pour permettre au footer de s'adapter au contenu */
+    min-height: 100px; /* Maintient une hauteur minimale pour l'esthétique */
+}
+
+footer div, .footer-logo {
+    margin: 10px 0; /* Maintient l'espacement vertical entre les éléments */
+    width: 100%; /* Assure que les divs utilisent toute la largeur disponible */
+}
+
+footer span {
+    color: #333;
+    font-size: 16px;
+}
+
+footer time {
+    font-style: italic;
+    color: #555;
+}
+
+footer p {
+    margin: 0;
+    color: #000000;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center; /* Assure que le logo est aussi centré horizontalement */
+}
+
+.footer-logo img {
+    height: 50px; /* Ajustez selon le besoin pour éviter le débordement */
+    width: auto; /* Maintient le ratio d'aspect de l'image */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9b3a7;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 30px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #8c786d;
+}
+
+.main-content {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #353833;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0; 
+    background-color: #fff; 
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); 
+}
+
+
+th {
+    background-color: #f4f4f4; 
+    color: #333; 
+    font-weight: bold; 
+    padding: 12px 15px;
+    text-align: left;
+}
+
+
+td {
+    padding: 10px 15px; 
+    border-top: 1px solid #ddd;
+    color: #666;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+
+section {
+	max-width: 900px;
+  	margin: 20px auto;
+   padding: 20px;
+  	background: white;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}

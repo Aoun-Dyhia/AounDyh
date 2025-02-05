@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+		<title>Jeux de gestion de restaurant</title>
+		<meta name="author" content="Léa"/>
+		<meta name="description" content="Page d'accueil du site dédié à 
+		l'étude des jeux de gestion de restaurant."/>
+		<style>
+       	#pizzaTycoon {
+           	background-color: #ded4cc; 
+            	padding: 20px;
+            	margin-top: 20px;
+        	}
+      
+        	#pizzaTycoon p {
+            	color: #4f4f4f;
+            	line-height: 1.6;
+        	}
+    		#sideMenu {
+        		position: fixed;
+        		top: 0;
+       		left: 0;
+        		width: 200px;
+        		height: 100%;
+        		background-color: #f0e5de;
+        		padding: 20px;
+        		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    		}	
+    		#sideMenu ul {
+        		list-style: none;
+        		padding: 0;
+    		}
+    		#sideMenu a {
+        		text-decoration: none;
+        		color: #5a4233;
+        		display: block;
+        		padding: 8px;
+        		margin-bottom: 10px;
+        		background-color: #e4d7c5;
+    		}
+    		#sideMenu a:hover {
+        		background-color: #d4c2b2;
+        	}
+        		
+    		#retourHaut {
+    			position: fixed;  
+    			bottom: 10px;     
+    			right: 10px;     
+    			background-color: #c9b3a7;
+    			padding: 10px;      
+    			border-radius: 8px; 
+    			z-index: 1000;     
+    			font-size: 16px;    
+    			color: #333;        
+    			font-weight: bold; 
+			}
+		</style>
+	</head>
+	<body>
+    	<div id="sideMenu">
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#pizzaTycoon">Pizza Tycoon</a></li>
+            <li><a href="#popularity">Popularité</a></li>
+        </ul>
+    	</div>
+    	<header>
+        <a href="index.html" class="logo">
+            <img src="./images/logo.png" alt="Logo jeux de gestion de restaurants" width="150" height="150"/>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Page d'accueil">Accueil</a></li>
+                <li><a href="fonctionnalitesetavis.html" title="Fonctionnalités et avis des joueurs sur les jeux de gestions">Fonctionnalités</a></li>
+                <li><a href="etudecas.html" title="Exemple d'une série de jeux de restaurant très connue">Exemple de jeux très connus</a></li>
+                <li><a href="meilleursjeux.html" title="Meilleurs jeux de gestion de restaurant">Les meilleurs jeux</a></li>
+            </ul>
+        </nav>
+    	</header>
+    	<main>
+        	<h1>Les jeux de gestions de restaurant</h1>
+        	<section id="intro">
+            <h2>Introduction au site internet</h2>
+            <article>
+            	<h3>De quoi parle-t-on ici?</h3>
+               <p>Les jeux de gestion sont <em>très appréciés</em> par les amateurs de stratégie et d'organisation, et cela s'applique particulièrement 
+						bien au domaine des restaurants. Sur notre site, nous discuterons des spécificités des jeux de gestion de restaurants et ce qui les rend si attractifs.
+						Nous nous concentrerons d'ailleurs sur un exemple très connu : la série de jeu Papa's.
+						Vous pourrez aussi découvrir les <a href="meilleursjeux.html#top5">jeux les mieux classés</a> qui permettent de gérer des bistros, des cafés gastronomiques et des chaînes 
+						de restauration rapide. Chaque jeu offre une expérience unique, avec des défis qui mettent à l'épreuve vos compétences en planification, en gestion 
+						du temps et en service client.
+					</p>
+            </article>
+            <article>
+                <h3>Fonctionnement du site</h3>
+                <figure>
+                    <img src="./images/plandusite.png" alt="Plan du site internet" width="800" height="371"/>
+                    <figcaption>Structure du site internet au format PNG.</figcaption>
+                </figure>
+            </article>
+        </section>
+        <section id="pizzaTycoon">
+        		<h2 style="color: #691c00;">Pizza Tycoon, le précurseur des jeux de gestion de restaurant</h2>
+            <article>
+					<h3 style="color: #5a4233;">Présentation du jeu</h3>
+               <p>Le premier jeu qui a introduit le concept de gestion de restaurant est généralement considéré comme étant <a href="https://www.senscritique.com/jeuvideo/pizza_connection/420600">Pizza Tycoon</a> (aussi connu sous le nom de "Pizza Connection" en Europe), qui a été lancé en 1994.
+                Dans ce jeu, les joueurs devaient gérer une pizzeria, ce qui incluait la création de pizzas, la gestion des stocks, la négociation avec des fournisseurs, et même des éléments de stratégie plus sombres comme des interactions avec la mafia.
+					</p>
+               <figure style="background-color: rgba(255, 255, 255, 0.5); padding: 10px;">
+                    <img src="./images/pizza-tycoon.webp" alt="Interface de Pizza Tycoon"/>
+                    <figcaption>Capture du jeu Pizza Tycoon 1994.</figcaption>
+               </figure>
+            </article>
+        </section>
+        <section id="popularity">
+        		<h2>Popularité des jeux de gestion de restaurant</h2>
+            <article>
+               <h3>Pourquoi une tel succès derrière ce type de jeu?</h3>
+               <p>Les jeux de gestion de restaurant, et plus largement les jeux de simulation, ont été créés pour plusieurs raisons. Tout d'abord, ils offrent une expérience ludique qui combine créativité et stratégie, 
+						permettant aux joueurs de construire et de gérer leurs propres entreprises dans un environnement contrôlé et sans risques réels. Ces jeux permettent également de simuler des scénarios de la vie réelle, 
+						donnant aux joueurs un aperçu des défis et des récompenses associés à la gestion d'un restaurant. En outre, ils servent d'exutoire pour l'expression créative, notamment dans la conception de menus et la décoration d'intérieurs, 
+						tout en développant des compétences en gestion du temps et en prise de décision. Ces aspects ont contribué à leur popularité et à leur développement continu dans l'industrie du jeu vidéo.
+					</p>
+            </article>
+        </section>
+        <span id="retourHaut"><a href="#">Retour au début de page.</a></span>
+      </main>
+		<footer>
+        <div>
+            <span>Auteurs : Bonacorsi Léa et Aoun Dyhia</span>
+        </div>
+        <div>
+            <span>Page modifiée le <time datetime="2025-02-05">05/02/2025</time></span>
+        </div>
+        <div>
+            <span>CY Paris université</span>
+        </div>
+        <div class="footer-logo" style="margin-top: 10px;">
+            <img src="images/CYU.png" alt="Logo CY Paris Université"/>
+        </div>
+    	</footer>       
+	</body>
+</html>					
